@@ -5,7 +5,11 @@ description = "Default template for PDM package"
 authors = [
     {name = "Fabio Lipreri", email = "fabio.lipreri@xtreamers.io"},
 ]
-dependencies = []
+dependencies = [
+    "pyautogen>=0.2.28",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.35.0",
+]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
